@@ -5,7 +5,16 @@ html {
 header {
     text-align: center;
     color: white;
-    width: 40%;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h1:hover {
+    color: black;
+}
+
+h2 {
+    font-size: small;
 }
 
 .centerlist
@@ -26,3 +35,14 @@ img {
     margin: 0 auto;
 }
 
+p {
+    text-align: center;
+    color: white;
+    font-size:xx-large;
+    margin-left: 470px;
+    margin-right: 470px;
+}
+
+footer {
+    text-align: center;
+}
