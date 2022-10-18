@@ -1,0 +1,37 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+div img {
+    grid-column: span 1/2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+div h1 {
+    font-size: 100px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    z-index: 2;
+}
+
+div h2 {
+    font-size: 30px;
+    color: red;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#background {
+    background-color: gray;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row: span 2;
+}
