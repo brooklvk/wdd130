@@ -1,58 +1,26 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&family=Luckiest+Guy:ital,wght@0,400;0,700;1,400&display=swap');
 
-
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
+body {
+    background-color: ivory;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 
 div {
     margin: 0 auto;
 }
 
-#hero {
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #616894;
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
-}
-
-#hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
-
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-    text-align: center;
-    font-family: 'Luckiest Guy', 'serif';
-}
-
-#hero-msg h1, #hero-msg h4 {
-    color: white;
-}
-
-#hero-img {
-    width: 100%;
-}
-
-.button-box {
-    text-align: center;
-}
-
-main section {
-    text-align: center;
-}
-
-main section img {
-    box-sizing: border-box;
-}
-
-#background {
-    height: 725px;
+    grid-template-columns: 150px auto;
 }
 
 #logo-link {
@@ -63,19 +31,6 @@ main section img {
 
 .logo {
     width: 80px;
-}
-
-body {
-    background-color: ivory;
-    font-size: 22px;
-    padding: 0;
-    margin: 0;
-
-}
-header {
-    background-color: #616894;
-    display: grid;
-    grid-template-columns: 150px auto;
 }
 
 nav {
@@ -96,6 +51,44 @@ nav a:hover {
     color: #616894;
 }
 
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Luckiest Guy', 'serif';
+}
+
+#hero-msg h1, #hero-msg h4 {
+    color: white;
+}
+
+.home-title {
+    color: #616894;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.button-box {
+    text-align: center;
+}
+
 .book {
     background-color: ivory;
     color: #616894;
@@ -112,18 +105,13 @@ nav a:hover {
     color: white;
 }
 
-
-
-
-
-
-.home-title {
-    color: #616894;
-    font-size: 2em;
-    margin-top: 10px;
+main section {
+    text-align: center;
 }
 
-
+main section img {
+    box-sizing: border-box;
+}
 
 .home-grid {
     display: grid;
@@ -151,6 +139,8 @@ h2 {
 
 #background {
     background-color: #d8da58;
+    height: 725px;
+    
 }
 
 .mountains {
