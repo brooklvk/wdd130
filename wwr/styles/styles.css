@@ -126,6 +126,21 @@ main section img {
     margin: 200px 0;
 }
 
+.rivers-card {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.camping-card {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+
+.rapids-card {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
+
 h2 {
     font-family: 'Luckiest Guy', 'serif';
     margin: 0;
@@ -146,17 +161,23 @@ h2 {
 #background {
     background-color: #d8da58;
     height: 725px;
+    grid-column: 1/11;
+    grid-row: 4/9;
     
 }
 
 .mountains {
     width: 100%;
+    grid-column: 2/7;
+    grid-row: 5/8;
 }
 
 .msg {
     background-color: #616894;
     line-height: 1.5em;
     padding: 35px;
+    grid-column: 6/10;
+    grid-row: 6/7;
 }
 
 .msg h2 {
