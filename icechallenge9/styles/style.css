@@ -11,7 +11,7 @@
     grid-row: 3/4;
     background-color: rgb(75, 127, 210);
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
@@ -28,7 +28,15 @@
 }
 
 .bottomtext {
+    justify-items: center;
+}
 
+.text1 {
+    grid-row: 1/2;
+}
+
+.text2 {
+    grid-row: 2/3;
 }
 
 @media 
