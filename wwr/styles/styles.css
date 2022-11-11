@@ -190,7 +190,7 @@ h2 {
 
 .msg h2 {
     color: ivory;
-    font-family: 'Work Sans', 'sans-serif'
+    font-family: 'Work Sans', 'sans-serif';
 }
 
 .msg p {
@@ -218,6 +218,49 @@ h2 {
 
 /*CSS for book-page.html ----------------------*/
 
+#title {
+    color: #616894;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Luckiest Guy', 'serif';
+}
+
+#heading {
+    color: #616894;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 10px;
+    font-family: 'Work Sans', 'sans-serif';
+}
+
+#lgimg {
+    width: 70%;
+    border: 10px solid #B6C1CE;
+    margin: 0% 15%;
+}
+
+#trips {
+
+}
+
+#booknow {
+    background-color: #616894;
+    color: ivory;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Work Sans', 'sans-serif';
+    padding: 15px 15px;
+    margin-top: 50px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+#booknow:hover {
+    background-color: #d8da58;
+    color: #616894;
+}
 
 
 /*--------------------------------------------*/
@@ -281,7 +324,7 @@ footer .social img {
         font-size: 25px;
         color: #6f7364;
     }
-    .rivers-card, .camping-card, .rapids-card { 
+    .rivers-card, .camping-card, .rapids-card, #lgimg { 
         margin: 50px auto;
         width: 60%;
     }
