@@ -235,6 +235,9 @@ h2 {
     padding: 10px;
     font-size: 40px;
     font-family: 'Work Sans', 'sans-serif';
+    display: flex; 
+    justify-content: center; 
+    margin: 0 ;
 }
 
 #lgimg {
