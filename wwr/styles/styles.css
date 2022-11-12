@@ -165,12 +165,12 @@ h2 {
 
 /*--------------------------------------------*/
 
-#background {
+/* #background {
     background-color: #B6C1CE;
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;
-}
+} */
 
 .mountains {
     width: 100%;
@@ -329,20 +329,21 @@ footer .social img {
     }
     #hero-msg {
         margin-top: 0;
+        background-color: #616894;
+        height: 120px;
     }
     #hero-msg h4 {
         display: none;
     }
     .home-title {
         font-size: 25px;
-        color: #6f7364;
     }
     .rivers-card, .camping-card, .rapids-card, #lgimg { 
         margin: 50px auto;
         width: 60%;
     }
     #background {
-        display: none;
+        display: block;        
     }
     .mountains, .msg {
         width: 80%;
