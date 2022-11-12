@@ -255,28 +255,10 @@ h2 {
     color: black;
     font-size: 25px;
     font-family: 'Work Sans', 'sans-serif';
-    text-justify: center;
     text-align: center;
     margin-top: 30px;
 }
 
-#booknow {
-    background-color: #616894;
-    color: ivory;
-    text-decoration: none;
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Work Sans', 'sans-serif';
-    padding: 15px 15px;
-    margin-top: 30px;
-    border-radius: 5px;
-    width: 100px;
-}
-
-#booknow:hover {
-    background-color: #d8da58;
-    color: #616894;
-}
 
 
 /*--------------------------------------------*/
