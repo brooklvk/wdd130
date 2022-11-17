@@ -4,15 +4,19 @@ pink blue green purple
 Heading Font: Fuzzy Bubbles
 Paragraph Font: Jost*/
 
-#content {
-
-}
+/*CSS for all site pages------------------*/
 
 nav {
 
 }
 
-main {
+footer {
+    
+}
+
+/*CSS for home page-----------------------*/
+
+.main-home {
 
 }
 
@@ -43,3 +47,51 @@ main {
 .port-details {
 
 }
+
+/*CSS for portfolio page------------------*/
+
+.main-portfolio {
+
+}
+
+.gallery {
+
+}
+
+.gallery-title {
+
+}
+
+.gallery img {
+
+}
+
+.description {
+
+}
+
+.goals {
+
+}
+
+.future {
+
+}
+
+/*CSS for inspiration page----------------*/
+
+.main-inspiration {
+
+}
+
+.websites {
+
+}
+
+/* add a class for each website like this: .websitename {} */
+
+.contact-button {
+    
+}
+
+/*CSS for contact page----------------*/
