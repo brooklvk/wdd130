@@ -1,3 +1,5 @@
+<!-- look into iframes ? -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,30 +7,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sewing Website</title>
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
     <div id="content">
     <header>
-        <a id="logo-link" href="index.html">
-            <img class="logo" src="./images/logo" alt="home logo">
-        </a>
         <nav>
             <a href="./portfolio.html">Portfolio</a>
+            <a id="logo-link" href="./index.html">
+                <img class="logo" src="./images/logo" alt="home logo">
+            </a>
             <a href="./inspiration.html">Inspiration</a>
         </nav>
     </header>
     <main>
-
-
+        <div class="intro-grid">
+            <div class="intro-text">
+                <p>This website will allow people to perform activities like: searching using provided links to find 
+                their own preferred resources (websites), viewing my work in a portfolio, and contact me for any 
+                other questions / requests / suggestions. </p>
+            </div>
+            <img class="image-me" src="./images/me" alt="photo of brooklyn">
+            <img class="pattern" src="./images/background-pattern" alt="background pattern">
+        </div>
+        <div class="img-examples">
+            <img src="./images/bookmark.jpg" alt="image for home page">
+            <img src="./images/book_bag.jpg" alt="image for home page">
+            <img src="./images/wallets.jpg" alt="image for home page">
+        </div>
+        <div class="insp-details">
+            <p>Inspiration - view my resources and discover more!</p>
+        </div>
+        <div class="port-details">
+            <p>Portfolio - view my work (includes patterns!)</p>
+        </div>
     </main>
-    <!-- look into iframes -->
     <footer>
         <p>Brooklyn Sowards</p>
         <p>Copyright etc</p>
-        <p link="site-plan.html">Site Plan</p>
+        <p link="./site-plan.html">Site Plan</p>
         <div>Contact button</div>
     </footer>
-
     </div>
 </body>
 </html>

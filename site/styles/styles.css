@@ -1,0 +1,40 @@
+
+#content {
+
+}
+
+nav {
+
+}
+
+main {
+
+}
+
+.intro-grid {
+    /* display: grid;
+    grid-template-columns: 4(1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "txt img . pattern"; */
+}
+
+.intro-text {
+    /* grid-area: txt; */
+}
+
+.image-me {
+    /* grid-area: img; */
+
+}
+
+.pattern {
+    /* grid-area: pattern; */
+}
+
+.insp-details {
+
+}
+
+.port-details {
+
+}
