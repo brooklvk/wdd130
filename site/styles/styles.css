@@ -23,7 +23,7 @@ body {
 header {
     background-color: #F07F90;
     display: grid;
-    grid-template-columns: 3(1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
 #logo-link {
@@ -75,7 +75,7 @@ footer p:nth-of-type(2) {
     font-size: 20px;
 }
 
-footer button {
+footer a {
     font-family: "Jost", sans-serif;
     font-size: 30px;
     background-color: #96AE6F;
@@ -86,7 +86,7 @@ footer button {
     border: #F07F90 solid 10px;
 }
 
-footer button:hover {
+footer a:hover {
     background-color: #96AE6F;
     color: white;
 }
@@ -94,13 +94,11 @@ footer button:hover {
 
 /*CSS for home page-----------------------*/
 
-.main-home {
-
-}
+/* .main-home {} */
 
 .intro-grid {
     display: grid;
-    grid-template-columns: 2(1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
 }
 
@@ -134,8 +132,8 @@ footer button:hover {
     margin: 20px 20%;
     text-align: center;
 }
-
-/*CSS for portfolio page------------------*/
+/* 
+CSS for portfolio page------------------
 
 .main-portfolio {
 
@@ -165,7 +163,7 @@ footer button:hover {
 
 }
 
-/*CSS for inspiration page----------------*/
+CSS for inspiration page----------------
 
 .main-inspiration {
 
@@ -175,10 +173,10 @@ footer button:hover {
 
 }
 
-/* add a class for each website like this: .websitename {} */
+add a class for each website like this: .websitename {}
 
 .contact-button {
     
 }
 
-/*CSS for contact page----------------*/
+CSS for contact page---------------- */
