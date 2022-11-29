@@ -33,13 +33,10 @@ header {
 
 nav {
     background-color: #F07F90;
-    line-height: 3em;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 20px;
     font-family: "Jost", sans-serif;
-    list-style-type: none;
-    /* delete display: flex, and work with the grid */
-    display: flex;
+    grid-column: 1/4;
 }
 
 nav a {
@@ -49,10 +46,10 @@ nav a {
     padding: 10px;
 }
 
-nav a:hover {
+/* nav a:hover {
     color: white;
     background-color: #886D84;
-}
+} */
 
 .logo {
     width: 20%;
