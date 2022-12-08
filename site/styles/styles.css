@@ -203,13 +203,14 @@ footer a:hover {
 .website-ind a{
     text-decoration: none;
     color: black;
-    font-size: 2em;
+    font-size: 1.5em;
+    font-family: 'Fuzzy Bubbles', 'sans-serif';
 }
 
 .site-logo {
     /* image */
-    height: 100px;
-
+    width: 50px;
+    margin-bottom: 10px;
 }
 
 .contact-button {
@@ -247,6 +248,10 @@ footer a:hover {
   .column {
     flex: 50%;
     max-width: 50%;
+  }
+
+  .website-ind {
+    display:block;
   }
 }
   
